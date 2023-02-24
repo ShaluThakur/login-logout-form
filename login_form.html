@@ -11,7 +11,7 @@
             padding: 0;
             font-family: 'Times New Roman', Times, serif;
             background: rgb(63,94,251);
-background: linear-gradient(90deg, rgba(63,94,251,1) 0%, rgba(181,49,120,1) %, rgba(87,46,95,1) 14%, rgba(82,31,125,1) 37%, rgba(52,39,102,1) 42%, rgba(184,8,110,1) 63%, rgba(252,70,107,1) 71%, rgba(218,26,123,1) 75%, rgba(84,10,70,1) 84%, rgba(228,12,104,1) 90%, rgba(238,37,131,1) 100%);
+            background: linear-gradient(90deg, rgba(63,94,251,1) 0%, rgba(181,49,120,1) , rgba(87,46,95,1) 14%, rgba(82,31,125,1) 37%, rgba(52,39,102,1) 42%, rgba(184,8,110,1) 63%, rgba(252,70,107,1) 71%, rgba(218,26,123,1) 75%, rgba(84,10,70,1) 84%, rgba(228,12,104,1) 90%, rgba(238,37,131,1) 100%);
             overflow: hidden;          
 
         }
@@ -76,7 +76,7 @@ background: linear-gradient(90deg, rgba(63,94,251,1) 0%, rgba(181,49,120,1) %, r
 <body>
    <div class = "main"> 
         <h1>Login</h1>
-        <form method="post">
+        <form method="post" action="successfulLogin.html">
             <div class = "txt_field">
                 Username: <input type="text">
                 
@@ -87,9 +87,7 @@ background: linear-gradient(90deg, rgba(63,94,251,1) 0%, rgba(181,49,120,1) %, r
             </div>
             <div class = "pass"> Forgot Password?</div><br>
         
-            <a href="successfulLogin.html">
-                <input type="submit" value = "Login" >
-            </a>
+            <input type="submit" value = "Login">
             <div class = signup_link>
                 <br>Not have an account?  <a href="signup.html"> Signup Here</a>
             </div>
